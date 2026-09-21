@@ -1,0 +1,1825 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>خودرو مارکت | خرید و فروش خودرو</title>
+    <meta name="description" content="خرید و فروش خودروهای لوکس و وارداتی با مشخصات کامل، تصاویر و مشاهده سه‌بعدی خودرو">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Website CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+    <header class="header" id="header">
+
+        <div class="container header-container">
+
+            <!-- Logo -->
+            <a href="#home" class="logo">
+                <span class="logo-icon">
+                    <i class="fa-solid fa-car-side"></i>
+                </span>
+
+                <span class="logo-text">
+                    <strong>خودرو</strong>
+                    <small>مارکت</small>
+                </span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="main-nav">
+
+                <a href="#home" class="nav-link active">
+                    خانه
+                </a>
+
+                <a href="#cars" class="nav-link">
+                    خودروها
+                </a>
+
+                <a href="#brands" class="nav-link">
+                    برندها
+                </a>
+
+                <a href="#services" class="nav-link">
+                    خدمات ما
+                </a>
+
+                <a href="#about" class="nav-link">
+                    درباره ما
+                </a>
+
+                <a href="#contact" class="nav-link">
+                    تماس با ما
+                </a>
+
+            </nav>
+
+            <!-- Header Actions -->
+            <div class="header-actions">
+
+                <button class="header-search-btn" id="openSearch" aria-label="جستجو">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+                <a href="#contact" class="header-contact-btn">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>مشاوره خرید</span>
+                </a>
+
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="منو">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+
+            <div class="mobile-menu-header">
+
+                <span>منوی سایت</span>
+
+                <button id="closeMobileMenu">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+
+            </div>
+
+            <nav>
+
+                <a href="#home">
+                    <i class="fa-solid fa-house"></i>
+                    خانه
+                </a>
+
+                <a href="#cars">
+                    <i class="fa-solid fa-car"></i>
+                    خودروها
+                </a>
+
+                <a href="#brands">
+                    <i class="fa-solid fa-tags"></i>
+                    برندها
+                </a>
+
+                <a href="#services">
+                    <i class="fa-solid fa-star"></i>
+                    خدمات ما
+                </a>
+
+                <a href="#about">
+                    <i class="fa-solid fa-circle-info"></i>
+                    درباره ما
+                </a>
+
+                <a href="#contact">
+                    <i class="fa-solid fa-phone"></i>
+                    تماس با ما
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <span class="hero-small-title">
+                        <i class="fa-solid fa-car"></i>
+                        انتخابی متفاوت برای شما
+                    </span>
+
+                    <h1>
+                        خودروی رویایی
+                        <span>خود را پیدا کنید</span>
+                    </h1>
+
+                    <p>
+                        مجموعه‌ای از خودروهای لوکس، وارداتی و صفر کیلومتر
+                        با مشخصات کامل و شرایط ویژه خرید.
+                    </p>
+
+                    <!-- Hero Buttons -->
+                    <div class="hero-buttons">
+
+                        <a href="#cars" class="btn btn-primary">
+                            مشاهده خودروها
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline">
+                            درخواست مشاوره
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Search Box -->
+            <div class="hero-search-wrapper">
+
+                <div class="container">
+
+                    <div class="hero-search-box">
+
+                        <div class="search-title">
+
+                            <span class="search-icon">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+
+                            <div>
+                                <strong>خودروی مورد نظر خود را پیدا کنید</strong>
+                                <small>برند، مدل یا نوع خودرو را جستجو کنید</small>
+                            </div>
+
+                        </div>
+
+
+                        <div class="search-fields">
+
+                            <div class="search-field">
+
+                                <label for="brandFilter">
+                                    برند
+                                </label>
+
+                                <select id="brandFilter">
+
+                                    <option value="">همه برندها</option>
+
+                                    <option value="bmw">
+                                        BMW
+                                    </option>
+
+                                    <option value="mercedes">
+                                        Mercedes-Benz
+                                    </option>
+
+                                    <option value="toyota">
+                                        Toyota
+                                    </option>
+
+                                    <option value="lexus">
+                                        Lexus
+                                    </option>
+
+                                    <option value="porsche">
+                                        Porsche
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="search-field">
+
+                                <label for="modelFilter">
+                                    مدل
+                                </label>
+
+                                <select id="modelFilter">
+
+                                    <option value="">همه مدل‌ها</option>
+
+                                    <option value="x5">
+                                        X5
+                                    </option>
+
+                                    <option value="gle">
+                                        GLE
+                                    </option>
+
+                                    <option value="land-cruiser">
+                                        Land Cruiser
+                                    </option>
+
+                                    <option value="lx">
+                                        LX
+                                    </option>
+
+                                    <option value="cayenne">
+                                        Cayenne
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="search-field">
+
+                                <label for="priceFilter">
+                                    محدوده قیمت
+                                </label>
+
+                                <select id="priceFilter">
+
+                                    <option value="">
+                                        همه قیمت‌ها
+                                    </option>
+
+                                    <option value="1">
+                                        زیر ۵ میلیارد
+                                    </option>
+
+                                    <option value="2">
+                                        ۵ تا ۱۰ میلیارد
+                                    </option>
+
+                                    <option value="3">
+                                        بالای ۱۰ میلیارد
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <button class="search-submit" id="searchCars">
+
+                                <i class="fa-solid fa-magnifying-glass"></i>
+
+                                جستجوی خودرو
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             STATS
+        ========================== -->
+        <section class="stats-section">
+
+            <div class="container stats-grid">
+
+                <div class="stat-item">
+
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-car"></i>
+                    </div>
+
+                    <div>
+                        <strong>+۵۰۰</strong>
+                        <span>خودروی موجود</span>
+                    </div>
+
+                </div>
+
+
+                <div class="stat-item">
+
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+
+                    <div>
+                        <strong>+۱۰</strong>
+                        <span>سال تجربه</span>
+                    </div>
+
+                </div>
+
+
+                <div class="stat-item">
+
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+
+                    <div>
+                        <strong>+۳۰۰۰</strong>
+                        <span>مشتری راضی</span>
+                    </div>
+
+                </div>
+
+
+                <div class="stat-item">
+
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+
+                    <div>
+                        <strong>۲۴/۷</strong>
+                        <span>پشتیبانی</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FEATURED CARS
+        ========================== -->
+        <section class="cars-section section-padding" id="cars">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="section-label">
+                            خودروهای ویژه
+                        </span>
+
+                        <h2>
+                            انتخابی برای
+                            <span>خاص‌پسندان</span>
+                        </h2>
+
+                    </div>
+
+                    <a href="#allCars" class="view-all">
+                        مشاهده همه خودروها
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+
+                </div>
+
+
+                <!-- Cars Grid -->
+                <div class="cars-grid" id="carsGrid">
+
+
+                    <!-- Car 1 -->
+                    <article class="car-card" data-brand="bmw" data-model="x5" data-price="2">
+
+                        <div class="car-image">
+
+                            <span class="car-badge">
+                                ویژه
+                            </span>
+
+                            <button class="favorite-btn" aria-label="افزودن به علاقه‌مندی">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=85"
+                                alt="BMW X5"
+                                loading="lazy"
+                            >
+
+                            <div class="car-image-overlay">
+
+                                <button class="view-3d-btn" data-car="BMW X5">
+                                    <i class="fa-solid fa-cube"></i>
+                                    مشاهده 3D
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="car-card-content">
+
+                            <div class="car-title-row">
+
+                                <div>
+
+                                    <span class="car-brand">
+                                        BMW
+                                    </span>
+
+                                    <h3>
+                                        BMW X5
+                                    </h3>
+
+                                </div>
+
+                                <span class="car-year">
+                                    2026
+                                </span>
+
+                            </div>
+
+
+                            <div class="car-specs">
+
+                                <span>
+                                    <i class="fa-solid fa-gas-pump"></i>
+                                    بنزینی
+                                </span>
+
+                                <span>
+                                    <i class="fa-solid fa-gears"></i>
+                                    اتوماتیک
+                                </span>
+
+                                <span>
+                                    <i class="fa-solid fa-road"></i>
+                                    صفر کیلومتر
+                                </span>
+
+                            </div>
+
+
+                            <div class="car-bottom">
+
+                                <div class="car-price">
+
+                                    <small>
+                                        قیمت
+                                    </small>
+
+                                    <strong>
+                                        ۸,۵۰۰,۰۰۰,۰۰۰
+                                    </strong>
+
+                                    <span>
+                                        تومان
+                                    </span>
+
+                                </div>
+
+                                <button class="car-details-btn" data-car-id="1">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Car 2 -->
+                    <article class="car-card" data-brand="mercedes" data-model="gle" data-price="3">
+
+                        <div class="car-image">
+
+                            <span class="car-badge">
+                                جدید
+                            </span>
+
+                            <button class="favorite-btn" aria-label="افزودن به علاقه‌مندی">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85"
+                                alt="Mercedes-Benz GLE"
+                                loading="lazy"
+                            >
+
+                            <div class="car-image-overlay">
+
+                                <button class="view-3d-btn" data-car="Mercedes-Benz GLE">
+                                    <i class="fa-solid fa-cube"></i>
+                                    مشاهده 3D
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="car-card-content">
+
+                            <div class="car-title-row">
+
+                                <div>
+
+                                    <span class="car-brand">
+                                        Mercedes-Benz
+                                    </span>
+
+                                    <h3>
+                                        Mercedes GLE
+                                    </h3>
+
+                                </div>
+
+                                <span class="car-year">
+                                    2026
+                                </span>
+
+                            </div>
+
+
+                            <div class="car-specs">
+
+                                <span>
+                                    <i class="fa-solid fa-gas-pump"></i>
+                                    بنزینی
+                                </span>
+
+                                <span>
+                                    <i class="fa-solid fa-gears"></i>
+                                    اتوماتیک
+                                </span>
+
+                                <span>
+                                    <i class="fa-solid fa-road"></i>
+                                    صفر کیلومتر
+                                </span>
+
+                            </div>
+
+
+                            <div class="car-bottom">
+
+                                <div class="car-price">
+
+                                    <small>
+                                        قیمت
+                                    </small>
+
+                                    <strong>
+                                        ۱۲,۴۰۰,۰۰۰,۰۰۰
+                                    </strong>
+
+                                    <span>
+                                        تومان
+                                    </span>
+
+                                </div>
+
+                                <button class="car-details-btn" data-car-id="2">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Car 3 -->
+                    <article class="car-card" data-brand="toyota" data-model="land-cruiser" data-price="3">
+
+                        <div class="car-image">
+
+                            <span class="car-badge">
+                                پرفروش
+                            </span>
+
+                            <button class="favorite-btn" aria-label="افزودن به علاقه‌مندی">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1623869675781-80aa31012a5a?auto=format&fit=crop&w=1200&q=85"
+                                alt="Toyota Land Cruiser"
+                                loading="lazy"
+                            >
+
+                            <div class="car-image-overlay">
+
+                                <button class="view-3d-btn" data-car="Toyota Land Cruiser">
+                                    <i class="fa-solid fa-cube"></i>
+                                    مشاهده 3D
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="car-card-content">
+
+                            <div class="car-title-row">
+
+                                <div>
+
+                                    <span class="car-brand">
+                                        Toyota
+                                    </span>
+
+                                    <h3>
+                                        Land Cruiser
+                                    </h3>
+
+                                </div>
+
+                                <span class="car-year">
+                                    2025
+                                </span>
+
+                            </div>
+
+
+                            <div class="car-specs">
+
+                                <span>
+                                    <i class="fa-solid fa-gas-pump"></i>
+                                    بنزینی
+                                </span>
+
+                                <span>
+                                    <i class="fa-solid fa-gears"></i>
+                                    اتوماتیک
+                                </span>
+
+                                <span>
+                                    <i class="fa-solid fa-road"></i>
+                                    صفر کیلومتر
+                                </span>
+
+                            </div>
+
+
+                            <div class="car-bottom">
+
+                                <div class="car-price">
+
+                                    <small>
+                                        قیمت
+                                    </small>
+
+                                    <strong>
+                                        ۱۵,۸۰۰,۰۰۰,۰۰۰
+                                    </strong>
+
+                                    <span>
+                                        تومان
+                                    </span>
+
+                                </div>
+
+                                <button class="car-details-btn" data-car-id="3">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Car 4 -->
+                    <article class="car-card" data-brand="lexus" data-model="lx" data-price="3">
+
+                        <div class="car-image">
+
+                            <span class="car-badge">
+                                لوکس
+                            </span>
+
+                            <button class="favorite-btn" aria-label="افزودن به علاقه‌مندی">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=85"
+                                alt="Lexus LX"
+                                loading="lazy"
+                            >
+
+                            <div class="car-image-overlay">
+
+                                <button class="view-3d-btn" data-car="Lexus LX">
+                                    <i class="fa-solid fa-cube"></i>
+                                    مشاهده 3D
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="car-card-content">
+
+                            <div class="car-title-row">
+
+                                <div>
+
+                                    <span class="car-brand">
+                                        Lexus
+                                    </span>
+
+                                    <h3>
+                                        Lexus LX 600
+                                    </h3>
+
+                                </div>
+
+                                <span class="car-year">
+                                    2026
+                                </span>
+
+                            </div>
+
+
+                            <div class="car-specs">
+
+                                <span>
+                                    <i class="fa-solid fa-gas-pump"></i>
+                                    بنزینی
+                                </span>
+
+                                <span>
+                                    <i class="fa-solid fa-gears"></i>
+                                    اتوماتیک
+                                </span>
+
+                                <span>
+                                    <i class="fa-solid fa-road"></i>
+                                    صفر کیلومتر
+                                </span>
+
+                            </div>
+
+
+                            <div class="car-bottom">
+
+                                <div class="car-price">
+
+                                    <small>
+                                        قیمت
+                                    </small>
+
+                                    <strong>
+                                        ۱۸,۲۰۰,۰۰۰,۰۰۰
+                                    </strong>
+
+                                    <span>
+                                        تومان
+                                    </span>
+
+                                </div>
+
+                                <button class="car-details-btn" data-car-id="4">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             3D EXPERIENCE
+        ========================== -->
+        <section class="three-d-section">
+
+            <div class="container three-d-container">
+
+                <div class="three-d-content">
+
+                    <span class="section-label">
+                        تجربه‌ای متفاوت
+                    </span>
+
+                    <h2>
+                        خودرو را قبل از خرید
+                        <span>سه‌بعدی ببینید</span>
+                    </h2>
+
+                    <p>
+                        با قابلیت مشاهده سه‌بعدی، خودرو را از زوایای مختلف
+                        بررسی کنید، آن را بچرخانید و رنگ مورد علاقه خود را انتخاب کنید.
+                    </p>
+
+                    <div class="three-d-features">
+
+                        <div>
+                            <i class="fa-solid fa-rotate"></i>
+                            <span>چرخش ۳۶۰ درجه</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span>زوم دقیق</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-palette"></i>
+                            <span>انتخاب رنگ</span>
+                        </div>
+
+                    </div>
+
+                    <button class="btn btn-primary open-3d-main" id="openMain3D">
+                        <i class="fa-solid fa-cube"></i>
+                        تجربه مشاهده سه‌بعدی
+                    </button>
+
+                </div>
+
+
+                <div class="three-d-preview">
+
+                    <div class="three-d-circle"></div>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1400&q=90"
+                        alt="مشاهده سه بعدی خودرو"
+                    >
+
+                    <span class="rotate-hint">
+                        <i class="fa-solid fa-arrows-left-right"></i>
+                        برای چرخاندن حرکت دهید
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             BRANDS
+        ========================== -->
+        <section class="brands-section section-padding" id="brands">
+
+            <div class="container">
+
+                <div class="section-heading centered">
+
+                    <span class="section-label">
+                        برندهای محبوب
+                    </span>
+
+                    <h2>
+                        بهترین برندهای
+                        <span>خودرو</span>
+                    </h2>
+
+                    <p>
+                        خودرو مورد علاقه خود را از میان برندهای معتبر جهان انتخاب کنید.
+                    </p>
+
+                </div>
+
+
+                <div class="brands-grid">
+
+                    <button class="brand-item" data-brand="bmw">
+
+                        <span class="brand-logo">
+                            BMW
+                        </span>
+
+                        <span>
+                            BMW
+                        </span>
+
+                    </button>
+
+
+                    <button class="brand-item" data-brand="mercedes">
+
+                        <span class="brand-logo">
+                            MB
+                        </span>
+
+                        <span>
+                            Mercedes-Benz
+                        </span>
+
+                    </button>
+
+
+                    <button class="brand-item" data-brand="toyota">
+
+                        <span class="brand-logo">
+                            TOYOTA
+                        </span>
+
+                        <span>
+                            Toyota
+                        </span>
+
+                    </button>
+
+
+                    <button class="brand-item" data-brand="lexus">
+
+                        <span class="brand-logo">
+                            L
+                        </span>
+
+                        <span>
+                            Lexus
+                        </span>
+
+                    </button>
+
+
+                    <button class="brand-item" data-brand="porsche">
+
+                        <span class="brand-logo">
+                            P
+                        </span>
+
+                        <span>
+                            Porsche
+                        </span>
+
+                    </button>
+
+
+                    <button class="brand-item" data-brand="audi">
+
+                        <span class="brand-logo">
+                            A
+                        </span>
+
+                        <span>
+                            Audi
+                        </span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SERVICES
+        ========================== -->
+        <section class="services-section section-padding" id="services">
+
+            <div class="container">
+
+                <div class="section-heading centered">
+
+                    <span class="section-label">
+                        خدمات ما
+                    </span>
+
+                    <h2>
+                        همراه شما از انتخاب
+                        <span>تا تحویل خودرو</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="services-grid">
+
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-car"></i>
+                        </div>
+
+                        <h3>
+                            فروش خودرو
+                        </h3>
+
+                        <p>
+                            مجموعه‌ای از خودروهای صفر و وارداتی با مشخصات کامل.
+                        </p>
+
+                        <a href="#cars">
+                            مشاهده خودروها
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </a>
+
+                    </div>
+
+
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-ship"></i>
+                        </div>
+
+                        <h3>
+                            واردات خودرو
+                        </h3>
+
+                        <p>
+                            ارائه خدمات و مشاوره برای واردات خودرو از کشورهای مختلف.
+                        </p>
+
+                        <a href="#contact">
+                            دریافت مشاوره
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </a>
+
+                    </div>
+
+
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-file-circle-check"></i>
+                        </div>
+
+                        <h3>
+                            مشاوره خرید
+                        </h3>
+
+                        <p>
+                            کارشناسان ما برای انتخاب خودرو مناسب در کنار شما هستند.
+                        </p>
+
+                        <a href="#contact">
+                            درخواست مشاوره
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </a>
+
+                    </div>
+
+
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+
+                        <h3>
+                            پشتیبانی
+                        </h3>
+
+                        <p>
+                            پشتیبانی و پاسخگویی به سوالات شما قبل و بعد از خرید.
+                        </p>
+
+                        <a href="#contact">
+                            تماس با ما
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+        <section class="about-section section-padding" id="about">
+
+            <div class="container about-container">
+
+                <div class="about-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1400&q=90"
+                        alt="خودرو مارکت"
+                        loading="lazy"
+                    >
+
+                    <div class="experience-box">
+
+                        <strong>
+                            +۱۰
+                        </strong>
+
+                        <span>
+                            سال تجربه
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <span class="section-label">
+                        درباره خودرو مارکت
+                    </span>
+
+                    <h2>
+                        انتخاب خودرو،
+                        <span>با اطمینان بیشتر</span>
+                    </h2>
+
+                    <p>
+                        ما تلاش می‌کنیم فرآیند انتخاب و خرید خودرو را
+                        ساده‌تر، شفاف‌تر و لذت‌بخش‌تر کنیم.
+                    </p>
+
+                    <p>
+                        از بررسی مشخصات فنی تا انتخاب رنگ و مشاهده سه‌بعدی،
+                        تمام ابزارهای لازم را در اختیار شما قرار می‌دهیم.
+                    </p>
+
+
+                    <div class="about-list">
+
+                        <div>
+                            <i class="fa-solid fa-circle-check"></i>
+                            خودروهای منتخب و باکیفیت
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-circle-check"></i>
+                            اطلاعات کامل خودرو
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-circle-check"></i>
+                            مشاوره تخصصی خرید
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-circle-check"></i>
+                            پشتیبانی مشتریان
+                        </div>
+
+                    </div>
+
+
+                    <a href="#contact" class="btn btn-primary">
+                        بیشتر درباره ما
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CTA
+        ========================== -->
+        <section class="cta-section">
+
+            <div class="container">
+
+                <div class="cta-content">
+
+                    <div>
+
+                        <span class="section-label">
+                            آماده انتخاب هستید؟
+                        </span>
+
+                        <h2>
+                            خودروی مورد علاقه‌تان
+                            <span>منتظر شماست</span>
+                        </h2>
+
+                        <p>
+                            برای دریافت اطلاعات بیشتر و مشاوره خرید با ما در تماس باشید.
+                        </p>
+
+                    </div>
+
+                    <a href="#contact" class="btn btn-light">
+                        دریافت مشاوره
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+        <section class="contact-section section-padding" id="contact">
+
+            <div class="container contact-container">
+
+                <div class="contact-info">
+
+                    <span class="section-label">
+                        تماس با ما
+                    </span>
+
+                    <h2>
+                        برای انتخاب خودرو
+                        <span>کنارتان هستیم</span>
+                    </h2>
+
+                    <p>
+                        سوالی دارید؟ فرم مقابل را پر کنید تا کارشناسان ما
+                        در سریع‌ترین زمان با شما تماس بگیرند.
+                    </p>
+
+
+                    <div class="contact-items">
+
+                        <div class="contact-item">
+
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+
+                            <div>
+                                <span>شماره تماس</span>
+                                <strong>
+                                    ۰۲۱-۱۲۳۴۵۶۷۸
+                                </strong>
+                            </div>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+
+                            <div>
+                                <span>ایمیل</span>
+                                <strong>
+                                    info@example.com
+                                </strong>
+                            </div>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+
+                            <div>
+                                <span>آدرس</span>
+                                <strong>
+                                    تهران، خیابان مثال
+                                </strong>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <form class="contact-form" id="contactForm">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            نام و نام خانوادگی
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="نام خود را وارد کنید"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="phone">
+                                شماره تماس
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="۰۹۱۲۱۲۳۴۵۶۷"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="carType">
+                                خودرو مورد نظر
+                            </label>
+
+                            <select id="carType" name="carType">
+
+                                <option value="">
+                                    انتخاب خودرو
+                                </option>
+
+                                <option value="bmw-x5">
+                                    BMW X5
+                                </option>
+
+                                <option value="mercedes-gle">
+                                    Mercedes GLE
+                                </option>
+
+                                <option value="land-cruiser">
+                                    Toyota Land Cruiser
+                                </option>
+
+                                <option value="lexus-lx">
+                                    Lexus LX
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            توضیحات
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="توضیحات یا سوال خود را بنویسید..."
+                        ></textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary form-submit">
+
+                        ارسال درخواست
+
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-top">
+
+                <div class="footer-brand">
+
+                    <a href="#home" class="logo">
+
+                        <span class="logo-icon">
+                            <i class="fa-solid fa-car-side"></i>
+                        </span>
+
+                        <span class="logo-text">
+                            <strong>خودرو</strong>
+                            <small>مارکت</small>
+                        </span>
+
+                    </a>
+
+                    <p>
+                        تجربه‌ای متفاوت در انتخاب و خرید خودرو.
+                    </p>
+
+
+                    <div class="social-links">
+
+                        <a href="#" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" aria-label="Telegram">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+
+                        <a href="#" aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h3>
+                        دسترسی سریع
+                    </h3>
+
+                    <a href="#home">خانه</a>
+                    <a href="#cars">خودروها</a>
+                    <a href="#brands">برندها</a>
+                    <a href="#services">خدمات</a>
+                    <a href="#about">درباره ما</a>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h3>
+                        خدمات
+                    </h3>
+
+                    <a href="#cars">فروش خودرو</a>
+                    <a href="#services">واردات خودرو</a>
+                    <a href="#services">مشاوره خرید</a>
+                    <a href="#contact">پشتیبانی</a>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h3>
+                        تماس با ما
+                    </h3>
+
+                    <a href="tel:+982112345678">
+                        <i class="fa-solid fa-phone"></i>
+                        ۰۲۱-۱۲۳۴۵۶۷۸
+                    </a>
+
+                    <a href="mailto:info@example.com">
+                        <i class="fa-solid fa-envelope"></i>
+                        info@example.com
+                    </a>
+
+                    <span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        تهران، ایران
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <span>
+                    © ۲۰۲۶ خودرو مارکت. تمامی حقوق محفوظ است.
+                </span>
+
+                <span>
+                    طراحی و توسعه با ❤️
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         SEARCH MODAL
+    ========================== -->
+    <div class="modal search-modal" id="searchModal">
+
+        <div class="modal-overlay"></div>
+
+        <div class="search-modal-content">
+
+            <button class="modal-close" id="closeSearch">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <span class="section-label">
+                جستجو
+            </span>
+
+            <h2>
+                دنبال چه خودرویی هستید؟
+            </h2>
+
+            <div class="modal-search">
+
+                <input
+                    type="text"
+                    id="globalSearch"
+                    placeholder="نام برند یا مدل خودرو..."
+                >
+
+                <button id="globalSearchBtn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         3D MODAL
+    ========================== -->
+    <div class="modal three-d-modal" id="threeDModal">
+
+        <div class="modal-overlay"></div>
+
+        <div class="three-d-modal-content">
+
+            <button class="modal-close" id="close3D">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+
+            <div class="three-d-header">
+
+                <div>
+
+                    <span class="section-label">
+                        نمایش سه‌بعدی
+                    </span>
+
+                    <h2 id="threeDCarName">
+                        BMW X5
+                    </h2>
+
+                </div>
+
+                <span class="three-d-status">
+                    360°
+                </span>
+
+            </div>
+
+
+            <!-- Three.js will be placed here -->
+            <div class="three-d-viewer" id="threeDViewer">
+
+                <div class="three-d-placeholder">
+
+                    <i class="fa-solid fa-cube"></i>
+
+                    <h3>
+                        نمایش سه‌بعدی خودرو
+                    </h3>
+
+                    <p>
+                        مدل سه‌بعدی خودرو در این قسمت نمایش داده می‌شود.
+                    </p>
+
+                    <span>
+                        چرخش با ماوس • زوم با اسکرول
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Color Selector -->
+            <div class="color-selector">
+
+                <div class="color-title">
+
+                    <strong>
+                        انتخاب رنگ
+                    </strong>
+
+                    <span id="selectedColor">
+                        مشکی
+                    </span>
+
+                </div>
+
+
+                <div class="color-options">
+
+                    <button
+                        class="car-color active"
+                        data-color="#111111"
+                        data-name="مشکی"
+                        style="background:#111111"
+                        aria-label="مشکی"
+                    ></button>
+
+                    <button
+                        class="car-color"
+                        data-color="#f2f2f2"
+                        data-name="سفید"
+                        style="background:#f2f2f2"
+                        aria-label="سفید"
+                    ></button>
+
+                    <button
+                        class="car-color"
+                        data-color="#b91c1c"
+                        data-name="قرمز"
+                        style="background:#b91c1c"
+                        aria-label="قرمز"
+                    ></button>
+
+                    <button
+                        class="car-color"
+                        data-color="#1d4ed8"
+                        data-name="آبی"
+                        style="background:#1d4ed8"
+                        aria-label="آبی"
+                    ></button>
+
+                    <button
+                        class="car-color"
+                        data-color="#64748b"
+                        data-name="خاکستری"
+                        style="background:#64748b"
+                        aria-label="خاکستری"
+                    ></button>
+
+                    <button
+                        class="car-color"
+                        data-color="#14532d"
+                        data-name="سبز"
+                        style="background:#14532d"
+                        aria-label="سبز"
+                    ></button>
+
+                </div>
+
+            </div>
+
+
+            <div class="three-d-controls">
+
+                <button id="rotateLeft">
+                    <i class="fa-solid fa-rotate-left"></i>
+                </button>
+
+                <button id="reset3D">
+                    <i class="fa-solid fa-arrows-rotate"></i>
+                    بازنشانی
+                </button>
+
+                <button id="rotateRight">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         CAR DETAILS MODAL
+    ========================== -->
+    <div class="modal car-details-modal" id="carDetailsModal">
+
+        <div class="modal-overlay"></div>
+
+        <div class="car-details-content">
+
+            <button class="modal-close" id="closeCarDetails">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div id="carDetailsContainer">
+                <!-- Details will be generated by JavaScript -->
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         TOAST
+    ========================== -->
+    <div class="toast" id="toast">
+
+        <i class="fa-solid fa-circle-check"></i>
+
+        <span id="toastMessage">
+            عملیات با موفقیت انجام شد
+        </span>
+
+    </div>
+
+
+    <!-- =========================
+         BACK TO TOP
+    ========================== -->
+    <button class="back-to-top" id="backToTop" aria-label="بازگشت به بالا">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+    <script src="script.js"></script>
+
+</body>
+</html>
